@@ -5,6 +5,7 @@ public class Student {
     private String firstName;
     private String lastName;
     private String email;
+    private boolean pass;
 
     public Student() {
     }
@@ -13,6 +14,13 @@ public class Student {
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
+    }
+
+    public Student(String firstName, String lastName, String email, boolean pass) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.email = email;
+        this.pass = pass;
     }
 
     public String getFirstName() {
@@ -39,12 +47,21 @@ public class Student {
         this.email = email;
     }
 
+    public boolean isPass() {
+        return pass;
+    }
+
+    public void setPass(boolean pass) {
+        this.pass = pass;
+    }
+
     @Override
     public String toString() {
         return "Student{" +
                 "firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", email='" + email + '\'' +
+                ", isPass=" + pass +
                 '}';
     }
 }
