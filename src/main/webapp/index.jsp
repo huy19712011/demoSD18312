@@ -127,7 +127,19 @@
 <fmt:message key="label.welcome"/><br>
 <hr>
 <p>Selected locale: ${theLocale}</p>
+<hr>
 
+<%--upload files--%>
+<h3>Upload Images</h3>
+<form method="POST" action="UploadServlet" enctype="multipart/form-data">
+    <input type="file" name="file">
+    <input type="submit" value="Upload">
+</form>
+
+
+<hr>
+<img src="${pageContext.request.contextPath}/images/java.png">
+<hr>
 <a href="hello-servlet">Hello Servlet</a>
 </body>
 </html>

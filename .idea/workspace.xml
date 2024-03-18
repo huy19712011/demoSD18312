@@ -9,12 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="009b7727-c421-4f92-9f7e-257811e38625" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mylabels.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mylabels_de_DE.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mylabels_es_ES.properties" afterDir="false" />
+    <list default="true" id="009b7727-c421-4f92-9f7e-257811e38625" name="Changes" comment="JSTL">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/demosd18312/controller/UploadServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/demosd18312/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/demosd18312/model/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,6 +76,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Projects\Java\Poly\demoSD18312\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\Java\Poly\demoSD18312\src\main\webapp\images" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 10.1.18">
@@ -189,11 +189,30 @@
       <workItem from="1710322843465" duration="5341000" />
       <workItem from="1710462126140" duration="3017000" />
       <workItem from="1710465159031" duration="5988000" />
-      <workItem from="1710494300729" duration="4054000" />
+      <workItem from="1710494300729" duration="4377000" />
+      <workItem from="1710563874837" duration="448000" />
+      <workItem from="1710646613022" duration="247000" />
+      <workItem from="1710650334697" duration="195000" />
+      <workItem from="1710723326294" duration="9687000" />
+      <workItem from="1710733993502" duration="4512000" />
+      <workItem from="1710750811537" duration="2672000" />
     </task>
+    <task id="LOCAL-00001" summary="JSTL">
+      <option name="closed" value="true" />
+      <created>1710501063635</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710501063635</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="JSTL" />
+    <option name="LAST_COMMIT_MESSAGE" value="JSTL" />
   </component>
 </project>
